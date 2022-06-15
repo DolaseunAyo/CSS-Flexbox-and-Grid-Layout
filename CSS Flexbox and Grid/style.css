@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    max-width: 1440px;
+}
+button a{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+}
+.link-btn{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.flexbox{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-bottom: 20px;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    text-align: left;
+    padding: 30px;
+    border-radius: 5px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-radius: 5px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.first{
+    color: hsl(31, 77%, 52%);
+}
+.second{
+    color: hsl(184, 100%, 22%);
+}
+.third{
+    color: hsl(179, 100%, 13%);
+}
